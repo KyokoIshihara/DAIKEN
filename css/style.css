@@ -24,11 +24,11 @@
 }
 
 body {
-/*     font-family: "ヒラギノ角ゴ　ProN", Meiryo, sans-serif; */
+    font-family: "ヒラギノ角ゴ　ProN", Meiryo, sans-serif;
     font-weight: 400;
     line-height: 1.5;
     max-width: 1920px;
-/*     font-family: 'Noto Sans JP', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
     margin: 0 auto;
     font-size: clamp(14px, 1.25vw, 16px);
 }
