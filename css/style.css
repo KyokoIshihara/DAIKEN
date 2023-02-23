@@ -52,12 +52,8 @@ li {
 }
 
 
-
-
-
-
 /* =========================================== */
-/* HEDEER */
+/* HEADER */
 /* ===========================================  */
 
 
@@ -302,7 +298,6 @@ SP ナビゲーション
             top: 100%;
             left: 50%;
             transform: translate(-52%, 0);
-            /* transform: scale(0); */
     }
 
     .header-block .title nav ul a::first-line {
@@ -378,27 +373,33 @@ SP ナビゲーション
     color: #fff;
 }
 
+.cv-button a p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 .cv-button a p:first-of-type::before {
     content: "　";
-    background-image: url(../img/icon-phone.svg);
+    display: inline-block;
+    background-image: url(../img/telephone.png);
     background-repeat: no-repeat;
     background-size: contain;
-    vertical-align: middle;
-    font-size: 1.8vw;
-    margin-bottom: 5px;
+    width: 15px;
+    height: 15px;
     margin-right: 3px;
 }
 
 .cv-button a p:last-of-type::before {
     content: "　";
-    background-image: url(../img/icon-mail.svg);
+    display: inline-block;
+    background-image: url(../img/mail.png);
     background-repeat: no-repeat;
     background-size: contain;
-    vertical-align: middle;
-    font-size: 1.8vw;
+    width: 15px;
+    height: 15px;
     margin-right: 4px;
-    margin-bottom: 5px;
 }
 
 /* 
@@ -976,6 +977,10 @@ section:nth-of-type(5) {
     font-weight: 600;
     position: relative;
     z-index: 90;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-button3 a {
@@ -983,34 +988,27 @@ section:nth-of-type(5) {
 }
 
 
-.contact-button2 a {
- 
-}
 
-.contact-button2 a:hover,
-.contact-button3 a:hover {
-    
-}
 
 .contact-button2 a::before {
     content: "　";
-    background-image: url(../img/icon-phone.svg);
+    display: inline-block;
+    background-image: url(../img/telephone.png);
     background-repeat: no-repeat;
     background-size: contain;
-    vertical-align: middle;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     margin-right: 2px;
 }
 
 .contact-button3 a::before {
     content: "　";
-    background-image: url(../img/icon-mail.svg);
+    display: inline-block;
+    background-image: url(../img/mail.png);
     background-repeat: no-repeat;
     background-size: contain;
-    vertical-align: middle;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     margin-right: 3px;
 }
 
@@ -1056,8 +1054,6 @@ footer {
     bottom: 0;
 }
 
-.footer-block>img {
-}
 
 .footer-block small {
     text-align: right;
